@@ -10,3 +10,8 @@ To do this, I could build a 'if width larger than X and smaller than Y' set of s
 Some google queries later I found a nice post on stackoverflow and decided to use that as base for this solution.
 
 Please, credits for Raphael_ - http://stackoverflow.com/a/15150381/1040669 - his input was the basis to this function.
+
+usage
+=====
+$.bootstrap_view.activeClass to get a string with the active view class on the last check; returns: xs, sm, md or lg . on init a check is done
+$.bootstrap_view.checkClass to do a new check; eg called on window resize. returns: xs, sm, md or lg . Value is stored in activeClass
