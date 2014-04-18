@@ -35,7 +35,7 @@
 		doCheck();
 		return {
 			activeClass: currentClass,
-			checkClass: doCheck
+			queryClass: doCheck
 		}
 	}
 }( jQuery ));
